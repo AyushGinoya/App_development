@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GUI</string>
+    <string name="hint_user_name">Enter User Name</string>
+    <string name="hint_Password">Enter Password</string>
+    <string name="name">Username</string>
+    <string name="pass">Password</string>
+
+
+</resources>
