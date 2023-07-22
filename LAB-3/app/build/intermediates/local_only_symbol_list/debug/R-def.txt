@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color Blue
+color Green
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnLog
+id lines
+id paas
+id user_name
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hint_Password
+string hint_user_name
+string id
+string name
+string pass
+style Base.Theme.GUI
+style Theme.GUI
+xml backup_rules
+xml data_extraction_rules
