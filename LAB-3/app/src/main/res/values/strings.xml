@@ -4,6 +4,8 @@
     <string name="hint_Password">Enter Password</string>
     <string name="name">Username</string>
     <string name="pass">Password</string>
+    <string name="id">Pri_id</string>
+
 
 
 </resources>

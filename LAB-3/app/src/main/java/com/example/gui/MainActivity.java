@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        login = (Button) findViewById(R.id.btnLog);
-        u_name= (EditText) findViewById(R.id.user_name);
-        u_pass=(EditText) findViewById(R.id.paas);
+        login = findViewById(R.id.btnLog);
+        u_name= findViewById(R.id.user_name);
+        u_pass= findViewById(R.id.paas);
 
 
 
@@ -30,9 +30,11 @@ public class MainActivity extends AppCompatActivity {
                 user_name=u_name.getText().toString();
                 password=u_pass.getText().toString();
                 if(user_name.equals("Admin") && password.equals("Admin")){
-                    Toast.makeText(getBaseContext(), "Succesfully Login", Toast.LENGTH_SHORT).show();
+                   // Toast.makeText(getBaseContext(), "Succesfully Login", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Succesfully Login", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(getBaseContext(), "Try again", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getBaseContext(), "Try again", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Try again", Toast.LENGTH_SHORT).show();
                 }
             }
         });
