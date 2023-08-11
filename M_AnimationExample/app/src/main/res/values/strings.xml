@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimationExample</string>
+    <string name="move_right">Move Right</string>
+    <string name="move_left">Move Left</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="alpha">Alpha</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="rotate_left">Rotate Left</string>
+</resources>
