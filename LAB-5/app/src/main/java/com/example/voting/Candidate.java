@@ -3,6 +3,7 @@ package com.example.voting;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class Candidate {
     private int vote;
     private String name;
