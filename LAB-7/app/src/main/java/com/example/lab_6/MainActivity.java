@@ -15,7 +15,6 @@ import android.widget.VideoView;
 import org.jetbrains.annotations.Nullable;
 
 public class MainActivity extends AppCompatActivity {
-
     private ImageView img;
     private Button click,gClick,next;
     Intent intent;
@@ -36,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                //noinspection deprecation
                 startActivityForResult(intent, REQ_CODE_CAM);
             }
         });
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 //Intent.ACTION_PICK. This action is used to select and return one or multiple data items from a set of data sources
                 intent.setData(MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 // represents the URI for the images in the external storage. This URI points to the collection of images stored on the device's external storage
+                //noinspection deprecation
                 startActivityForResult(intent, REQ_CODE_GAL);
                 // The REQ_CODE_GAL is a request code that you'll later use in the onActivityResult callback to identify which result you're handling.
             }

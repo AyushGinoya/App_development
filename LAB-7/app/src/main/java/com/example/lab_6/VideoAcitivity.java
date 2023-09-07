@@ -33,6 +33,7 @@ public class VideoAcitivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 i = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+                //noinspection deprecation
                 startActivityForResult(i,REQ_CODE_VIDEO_CAPTURE);
             }
         });

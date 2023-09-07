@@ -8,11 +8,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="555dp"
-        android:id="@+id/image1"/>
+        android:id="@+id/image1"
+        android:contentDescription="@string/myphoto" />
 
     <Button
         android:layout_width="wrap_content"
