@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return response;
         }
-
         @Override
         protected void onPostExecute(String s) {
             //noinspection deprecation
