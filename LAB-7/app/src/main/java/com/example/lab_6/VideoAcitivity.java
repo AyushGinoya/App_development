@@ -14,7 +14,8 @@ import android.widget.VideoView;
 public class VideoAcitivity extends AppCompatActivity {
 
     private VideoView v;
-    private Intent i;
+
+    //1,2,4,5,6,7,10
     private Button start;
     private final static int REQ_CODE_VIDEO_CAPTURE = 20;
     @Override
