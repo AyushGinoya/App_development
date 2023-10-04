@@ -28,8 +28,10 @@ import com.google.android.gms.tasks.Task;
 
 public class MainActivity extends AppCompatActivity {
 
+   // a part of Google Play Services used for retrieving the device's location.
     FusedLocationProviderClient mFusedLocationClient;
     TextView latitudeTextView, longitTextView;
+    //PERMISSION_ID is an arbitrary integer used when requesting location permissions.
     int PERMISSION_ID = 1;
 
     @Override
@@ -41,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         longitTextView = findViewById(R.id.lonTextView);
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+        //getLastLocation() method checks for location permissions and whether location services are enabled
+        //If both are available, it attempts to retrieve the last known location. If the last location is not available, it calls requestNewLocationData() method.
         getLastLocation();
     }
 
