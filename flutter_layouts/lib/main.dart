@@ -67,7 +67,7 @@ class Hone extends StatelessWidget {
             ),
           ),
           Expanded(
-            flex: 4, // This widget takes 4 part of the available space
+            flex: 4, // This widget takes 4 part of the available space.
             child: Container(
               width: 200,
               height: 60,
